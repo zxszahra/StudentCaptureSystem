@@ -2,7 +2,6 @@
 
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<!--create a DialogPane and include the appropriate controller-->
 <DialogPane fx:controller="fsd.assignment.assignment1.EditStudentController"
             xmlns:fx="http://javafx.com/fxml">
     <content>
@@ -20,12 +19,10 @@
             <Label fx:id="mod1Edit" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
             <Label fx:id="mod2Edit"  GridPane.rowIndex="1" GridPane.columnIndex="2"/>
             <Label fx:id="mod3Edit"  GridPane.rowIndex="1" GridPane.columnIndex="3"/>
-
-            <!--make use of the EditStudentController to complete the rest of the fxml-->
+                    
             <ChoiceBox fx:id="mod1ChoiceEdit" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
             <ChoiceBox fx:id="mod2ChoiceEdit" GridPane.rowIndex="3" GridPane.columnIndex="2"/>
             <ChoiceBox fx:id="mod3ChoiceEdit" GridPane.rowIndex="3" GridPane.columnIndex="3"/>
         </GridPane>
     </content>
 </DialogPane>
-
